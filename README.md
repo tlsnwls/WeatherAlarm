@@ -1,10 +1,10 @@
 # WeatherAlarm
-날씨 알리미~
 
-# 공공데이터포털 사용
-- 기상청 API 단기예보 사용
-- 현재 매일 08시 예보 기준 현재 온도, 강수 확률 데이터 가져옴
+##  날씨 API: Open-Meteo API 사용
+- https://open-meteo.com/ 
+- 사용 방법 심플
+- 호출 시점 가장 최근 예보 시점으로 날씨 데이터를 제공
 
-# 병재 후원 - SMSPLACE API 사용 (심연의 API)
-- 08시 30분마다 crontab으로 지정된 전화번호로 문자 발송 됨
+## 문자 API: 카페24 문자 호스팅 API 사용
+- weather_alarm.py 참고
 
